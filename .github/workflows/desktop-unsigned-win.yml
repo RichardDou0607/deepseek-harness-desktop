@@ -39,7 +39,7 @@ jobs:
           # macOS artifact instead and by first use on a real Windows desktop.
           DSH_DESKTOP_SMOKE_OFFICE: '0'
       - name: Upload unsigned artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: deepseek-harness-win-x64-unsigned
           path: |
